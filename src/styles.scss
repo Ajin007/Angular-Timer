@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-.timer-container{
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+// Import FontAwesome
+
+// Font Awesome core styles
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Include Solid styles for Font Awesome Solid icons
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+// Optionally include Regular and other styles if needed
+ @import '~@fortawesome/fontawesome-free/scss/regular';
+ @import '~@fortawesome/fontawesome-free/scss/brands';
